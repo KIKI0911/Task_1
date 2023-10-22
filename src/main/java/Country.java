@@ -11,11 +11,11 @@ public class Country {
         countryNames.add("Japan");
         countryNames.add("America");
         countryNames.add("Canada");
-        for(String selectedName: countryNames){
-            if(selectedName.contains("d")){
+        for(String selectedNames: countryNames){
+            if(selectedNames.contains("d")){
                 System.out.println("d is included in the name of country");
             }else{
-                System.out.println(selectedName);
+                System.out.println(selectedNames);
             }
         }
         System.out.println();
